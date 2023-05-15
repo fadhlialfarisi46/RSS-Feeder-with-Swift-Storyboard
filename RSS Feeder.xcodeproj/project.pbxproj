@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		5B67E21E2A107E0D007711C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E21D2A107E0D007711C4 /* AppDelegate.swift */; };
 		5B67E2202A107E0D007711C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E21F2A107E0D007711C4 /* SceneDelegate.swift */; };
-		5B67E2222A107E0D007711C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E2212A107E0D007711C4 /* ViewController.swift */; };
 		5B67E2252A107E0D007711C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B67E2232A107E0D007711C4 /* Main.storyboard */; };
 		5B67E2272A107E0E007711C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B67E2262A107E0E007711C4 /* Assets.xcassets */; };
 		5B67E22A2A107E0E007711C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B67E2282A107E0E007711C4 /* LaunchScreen.storyboard */; };
+		5B67E2332A108512007711C4 /* FeedItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E2322A108512007711C4 /* FeedItemsTableViewController.swift */; };
+		5B67E2352A108566007711C4 /* FeedListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E2342A108566007711C4 /* FeedListTableViewController.swift */; };
+		5B67E2372A108599007711C4 /* AddFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E2362A108599007711C4 /* AddFeedViewController.swift */; };
+		5B67E2392A1085CA007711C4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E2382A1085CA007711C4 /* WebViewController.swift */; };
+		5B67E23C2A1087B7007711C4 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E23B2A1087B7007711C4 /* Feed.swift */; };
+		5B67E23E2A108829007711C4 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E23D2A108829007711C4 /* FeedItem.swift */; };
+		5B67E2452A1090F1007711C4 /* SQLiteDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E2442A1090F1007711C4 /* SQLiteDataStore.swift */; };
+		5B67E2472A10B3D0007711C4 /* FeedDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E2462A10B3D0007711C4 /* FeedDataHelper.swift */; };
+		5B67E24A2A10BFCD007711C4 /* FeedsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E2492A10BFCD007711C4 /* FeedsTableViewCell.swift */; };
+		5B67E24C2A10CBAA007711C4 /* FeedItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B67E24B2A10CBAA007711C4 /* FeedItemTableViewCell.swift */; };
+		E88754F8DE4B8C3B01DB5FB8 /* Pods_RSS_Feeder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ECA8B6D5C598DA26BAD1FB /* Pods_RSS_Feeder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B67E21A2A107E0D007711C4 /* RSS Feeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSS Feeder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B67E21D2A107E0D007711C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B67E21F2A107E0D007711C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B67E2212A107E0D007711C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B67E2242A107E0D007711C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B67E2262A107E0E007711C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B67E2292A107E0E007711C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B67E22B2A107E0E007711C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B67E2322A108512007711C4 /* FeedItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsTableViewController.swift; sourceTree = "<group>"; };
+		5B67E2342A108566007711C4 /* FeedListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListTableViewController.swift; sourceTree = "<group>"; };
+		5B67E2362A108599007711C4 /* AddFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedViewController.swift; sourceTree = "<group>"; };
+		5B67E2382A1085CA007711C4 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		5B67E23B2A1087B7007711C4 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		5B67E23D2A108829007711C4 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		5B67E2442A1090F1007711C4 /* SQLiteDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDataStore.swift; sourceTree = "<group>"; };
+		5B67E2462A10B3D0007711C4 /* FeedDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataHelper.swift; sourceTree = "<group>"; };
+		5B67E2492A10BFCD007711C4 /* FeedsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsTableViewCell.swift; sourceTree = "<group>"; };
+		5B67E24B2A10CBAA007711C4 /* FeedItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemTableViewCell.swift; sourceTree = "<group>"; };
+		87ECA8B6D5C598DA26BAD1FB /* Pods_RSS_Feeder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSS_Feeder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99E0004928FAF7F2D224872 /* Pods-RSS Feeder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSS Feeder.release.xcconfig"; path = "Target Support Files/Pods-RSS Feeder/Pods-RSS Feeder.release.xcconfig"; sourceTree = "<group>"; };
+		FFC6919C2EC2AD11595CEA16 /* Pods-RSS Feeder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSS Feeder.debug.xcconfig"; path = "Target Support Files/Pods-RSS Feeder/Pods-RSS Feeder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88754F8DE4B8C3B01DB5FB8 /* Pods_RSS_Feeder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A31DFF111606822DBDA45F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87ECA8B6D5C598DA26BAD1FB /* Pods_RSS_Feeder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B67E2112A107E0D007711C4 = {
 			isa = PBXGroup;
 			children = (
 				5B67E21C2A107E0D007711C4 /* RSS Feeder */,
 				5B67E21B2A107E0D007711C4 /* Products */,
+				AC6AA8C38777B3465CE4F2F8 /* Pods */,
+				0A31DFF111606822DBDA45F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +91,55 @@
 			children = (
 				5B67E21D2A107E0D007711C4 /* AppDelegate.swift */,
 				5B67E21F2A107E0D007711C4 /* SceneDelegate.swift */,
-				5B67E2212A107E0D007711C4 /* ViewController.swift */,
+				5B67E2482A10BFAB007711C4 /* Components */,
+				5B67E2312A1084D6007711C4 /* Controllers */,
+				5B67E23A2A10879D007711C4 /* Data */,
 				5B67E2232A107E0D007711C4 /* Main.storyboard */,
 				5B67E2262A107E0E007711C4 /* Assets.xcassets */,
 				5B67E2282A107E0E007711C4 /* LaunchScreen.storyboard */,
 				5B67E22B2A107E0E007711C4 /* Info.plist */,
 			);
 			path = "RSS Feeder";
+			sourceTree = "<group>";
+		};
+		5B67E2312A1084D6007711C4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B67E2322A108512007711C4 /* FeedItemsTableViewController.swift */,
+				5B67E2342A108566007711C4 /* FeedListTableViewController.swift */,
+				5B67E2362A108599007711C4 /* AddFeedViewController.swift */,
+				5B67E2382A1085CA007711C4 /* WebViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B67E23A2A10879D007711C4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5B67E23B2A1087B7007711C4 /* Feed.swift */,
+				5B67E23D2A108829007711C4 /* FeedItem.swift */,
+				5B67E2442A1090F1007711C4 /* SQLiteDataStore.swift */,
+				5B67E2462A10B3D0007711C4 /* FeedDataHelper.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5B67E2482A10BFAB007711C4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5B67E2492A10BFCD007711C4 /* FeedsTableViewCell.swift */,
+				5B67E24B2A10CBAA007711C4 /* FeedItemTableViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC6AA8C38777B3465CE4F2F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFC6919C2EC2AD11595CEA16 /* Pods-RSS Feeder.debug.xcconfig */,
+				A99E0004928FAF7F2D224872 /* Pods-RSS Feeder.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B67E22E2A107E0E007711C4 /* Build configuration list for PBXNativeTarget "RSS Feeder" */;
 			buildPhases = (
+				FE2608B630F22C1FAC8B3055 /* [CP] Check Pods Manifest.lock */,
 				5B67E2162A107E0D007711C4 /* Sources */,
 				5B67E2172A107E0D007711C4 /* Frameworks */,
 				5B67E2182A107E0D007711C4 /* Resources */,
+				ADD8A8C8108F742FCC726DA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +210,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADD8A8C8108F742FCC726DA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RSS Feeder/Pods-RSS Feeder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RSS Feeder/Pods-RSS Feeder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RSS Feeder/Pods-RSS Feeder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2608B630F22C1FAC8B3055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSS Feeder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B67E2162A107E0D007711C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B67E2222A107E0D007711C4 /* ViewController.swift in Sources */,
+				5B67E23C2A1087B7007711C4 /* Feed.swift in Sources */,
+				5B67E2472A10B3D0007711C4 /* FeedDataHelper.swift in Sources */,
 				5B67E21E2A107E0D007711C4 /* AppDelegate.swift in Sources */,
+				5B67E24A2A10BFCD007711C4 /* FeedsTableViewCell.swift in Sources */,
+				5B67E2392A1085CA007711C4 /* WebViewController.swift in Sources */,
+				5B67E2352A108566007711C4 /* FeedListTableViewController.swift in Sources */,
+				5B67E23E2A108829007711C4 /* FeedItem.swift in Sources */,
+				5B67E2372A108599007711C4 /* AddFeedViewController.swift in Sources */,
+				5B67E24C2A10CBAA007711C4 /* FeedItemTableViewCell.swift in Sources */,
+				5B67E2332A108512007711C4 /* FeedItemsTableViewController.swift in Sources */,
+				5B67E2452A1090F1007711C4 /* SQLiteDataStore.swift in Sources */,
 				5B67E2202A107E0D007711C4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +410,7 @@
 		};
 		5B67E22F2A107E0E007711C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC6919C2EC2AD11595CEA16 /* Pods-RSS Feeder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +424,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +440,7 @@
 		};
 		5B67E2302A107E0E007711C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99E0004928FAF7F2D224872 /* Pods-RSS Feeder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +454,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
